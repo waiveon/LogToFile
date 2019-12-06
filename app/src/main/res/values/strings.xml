@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LogToFile</string>
+    <string name="file_list">파일 목록</string>
+    <string name="not_exist_file">파일이 없습니다.</string>
+    <string name="cancel">취소</string>
+    <string name="del">삭제</string>
+</resources>
