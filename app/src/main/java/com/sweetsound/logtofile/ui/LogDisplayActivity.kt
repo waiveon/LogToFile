@@ -6,6 +6,7 @@ import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ScrollView
 import android.widget.Toast
 import com.sweetsound.logtofile.LogToFile
 import com.sweetsound.logtofile.R
@@ -85,6 +86,10 @@ class LogDisplayActivity(): Activity() {
             } else {
                 Toast.makeText(this, R.string.not_exist_file, Toast.LENGTH_SHORT).show()
             }
+        }
+
+        down_button.setOnClickListener {
+            scrollview.fullScroll(ScrollView.FOCUS_DOWN)
         }
     }
 }
